@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - Key-run Gautam</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2d2d2d;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 5px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h2 {
+      color: #444;
+      margin-bottom: 15px;
+      border-left: 4px solid #0077cc;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+
+    .contact a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2d2d2d;
+      color: #fff;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .container {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Key-run Gautam</h1>
+    <p>Mobile Hardware Engineer & Video Editor</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Hello! I’m a passionate <strong>Mobile Hardware Engineer</strong> and an experienced <strong>Video
+          Editor</strong>. I specialize in repairing mobile devices, diagnosing hardware issues, and editing videos like marriage ceremonies, solving hardware problems of any devices.</p>
+    </div>
+
+    <div class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Smartphone Hardware Troubleshooting</li>
+        <li>Marriage Video Shooting</li>
+        <li>Marriage Video Editing</li>
+      </ul>
+    </div>
+
+    <div class="card contact">
+      <h2>Contact</h2>
+      <p>📧 Email: <a href="mailto:pratikchalise@email.com">pratikchalise@email.com</a></p>
+      <p>📱 Phone: +977-9800000000</p>
+      <p>📸 Facebook: <a href="https://www.facebook.com/keerangautam09" target="_blank">keerangautam09</a></p>
+      <p>🎥 YouTube: <a href="https://www.youtube.com/@key-run7751" target="_blank">@key-run7751</a></p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    Made by © Pratik Chalise 2025
+  </footer>
+
+</body>
+
+</html>
